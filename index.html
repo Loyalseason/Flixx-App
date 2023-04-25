@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https:fonts.googleapis.com"/>
+    <link rel="preconnect" href="https:fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https:fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"/>
+    
+    <link rel="stylesheet" href="/CSS/style.css"/>
+    <script src="https://kit.fontawesome.com/64363bce82.js" crossorigin="anonymous"></script>
+
+    <title>Flixx</title>
+</head>
+<body>
+    <!-- Header or Navigation Bar -->
+    <header class="main-header">
+          <div class="container">
+            <div class="logo"><a href="/">FLIXX</a></div>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="nav-link1" href="/">Movies</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="/">TV Shows</a>
+                    </li>
+                </ul>
+            </nav>
+          </div>
+    </header>
+
+    <!-- now playing section -->
+    <section class="now-playing">
+     <h2>Now Playing</h2>
+     <div class="swiper">
+        <div class="swiper-wrapper">
+
+        </div>
+     </div>
+    </section>
+
+    <!-- search movies -->
+    <section class="search">
+      <div class="container">
+       <div id="alert">
+        <form action="/search.html" class="search-form">
+         <!-- movies and shows radio box -->
+         <div class="search-radio">
+         <input type="radio" name="type" id="movie" value="movie" checked/>
+         <label for="movies">Movies</label>
+         <input type="radio" name="type" id="tv" value="tv"/>
+         <label for="shows">TV Shows</label>
+         </div>
+
+         <div class="search-flex">
+            <input 
+            type="text" 
+            name="search-term" 
+            id="search-term"
+            placeholder="Enter search term"
+            />
+            <button class="btn" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+         </div>
+        </form>
+       </div>
+      </div>
+    </section>
+
+    <!-- popular movies -->
+
+    <section>
+        <h2>Popular Movies</h2>
+        <div class="lastcontainer">
+        <div id="popular-movies" class="grid">
+        <div class="card">
+          <a href="movie-details.html?id=1">
+          <img
+            src="images/womanKing.jpg"
+            class="card-img-top"
+            alt="Movie Title"
+            />
+        </a>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Movie Title</h5>
+            <p class="card-text">
+                <small class="text-muted">Release : XX/XX/XX</small>
+            </p>
+        </div>
+        </div>
+
+
+        <div id="popular-movies" class="grid">
+            <div class="card">
+              <a href="movie-details.html?id=1">
+              <img
+                src="images/womanKing.jpg"
+                class="card-img-top"
+                alt="Movie Title"
+                />
+            </a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Movie Title</h5>
+                <p class="card-text">
+                    <small class="text-muted">Release : XX/XX/XX</small>
+                </p>
+            </div>
+           </div>
+
+        <div id="popular-movies" class="grid">
+                <div class="card">
+                  <a href="movie-details.html?id=1">
+                  <img
+                    src="images/womanKing.jpg"
+                    class="card-img-top"
+                    alt="Movie Title"
+                    />
+                </a>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Movie Title</h5>
+                    <p class="card-text">
+                        <small class="text-muted">Release : XX/XX/XX</small>
+                    </p>
+                </div>
+           </div>
+
+
+
+        </div>
+    </section>
+
+
+    
+</body>
+</html>

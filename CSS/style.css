@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main-header{
+   background-color: black;
+   margin: 0px;
+}
+.container{
+    display: flex;
+}
+
+nav{
+    width: 70%;
+    display: flex;
+    justify-content: right;
+    padding-right: 120px;
+}
+
+li a{
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.nav-link1{
+   color: rgb(221, 221, 33);
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.logo{
+    padding: 15px;
+    width: 25%;
+    text-align: right;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+
+.now-playing{
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(8, 13, 41);
+}
+
+.now-playing h2{
+    color: white;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#search-term{
+    width: 400px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.card-img-top{
+    height: 250px;
+}
+.lastcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#popular-movies{
+    display: block;
+    padding: 15px;
+}
+
+.AfterNowPlaying{
+    background-color: rgba(8, 13, 41);
+}

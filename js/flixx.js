@@ -119,7 +119,7 @@ function onClickMovieDetails(){}
 
 //Fetch Data from T-MDB API
 async function fetchAPIData(endpoint){
-    const API_KEY = '4ea990b991a8a8f55c0afd95a62d3eec';
+    const API_KEY = 'YOUR_API_KEY';
     const API_URL = 'https://api.themoviedb.org/3/'
 
     const res = await fetch(`${API_URL}${endpoint}?api_key=${API_KEY}&language=en-US`)
